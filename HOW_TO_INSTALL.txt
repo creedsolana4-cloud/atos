@@ -1,0 +1,53 @@
+====================================================
+   ARCHITECT TRADING OS — PWA INSTALLATION GUIDE
+====================================================
+
+WHAT YOU HAVE (4 files — keep all in the same folder):
+  - ArchitectTradingOS.html   (the app)
+  - manifest.json             (PWA config)
+  - sw.js                     (offline service worker)
+  - icon-192.png / icon-512.png (app icons)
+
+====================================================
+OPTION A — EASIEST: Use it directly in Chrome (Desktop)
+====================================================
+1. Put all 4 files in one folder on your computer
+2. Open Chrome and drag ArchitectTradingOS.html into it
+   OR double-click the file to open in browser
+3. A small install icon (⊕) will appear in the address bar
+4. Click it and select "Install"
+5. ATOS now appears as a desktop app you can pin to taskbar
+
+====================================================
+OPTION B — BEST MOBILE EXPERIENCE: Host it free online
+====================================================
+This gives you full PWA install on iPhone/Android.
+
+Using GitHub Pages (free, permanent link):
+1. Go to github.com and create a free account
+2. Create a new repository called "atos"
+3. Upload all 4 files (drag and drop)
+4. Go to Settings → Pages → set Source to "main branch"
+5. GitHub gives you a link like: https://yourname.github.io/atos/
+6. Open that link on your phone
+7. On Android Chrome: tap menu → "Add to Home Screen"
+   On iPhone Safari: tap Share → "Add to Home Screen"
+8. ATOS installs as a native-looking app on your phone
+
+Using Netlify Drop (even easier, no account needed):
+1. Go to app.netlify.com/drop
+2. Drag your entire ATOS folder onto the page
+3. Netlify gives you a live URL instantly
+4. Open on phone → Add to Home Screen → done
+
+====================================================
+DATA & BACKUP REMINDER
+====================================================
+- All your trade data saves automatically in the browser
+- Use Export CSV regularly to keep a backup
+- If you switch devices, use Import CSV to restore
+- When cloud sync is added later, this becomes automatic
+
+====================================================
+PROTECT THE PROCESS · THE RESULTS WILL FOLLOW
+====================================================
